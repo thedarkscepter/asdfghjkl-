@@ -1,6 +1,6 @@
 class Pig {
     constructor(x, y) {
-      this.image = loadImage("sprites/enemy.png");
+      this.image = loadImage("enemy.png");
       var options = {
           'restitution':0.8,
           'friction':0.3,

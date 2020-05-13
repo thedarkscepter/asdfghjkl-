@@ -1,6 +1,6 @@
 class Log {
     constructor(x, y, height, angle) {
-      this.image = loadImage("sprites/wood2.png");
+      this.image = loadImage("wood2.png");
       var options = {
           'restitution':0.8,
           'friction':1.0,

@@ -1,6 +1,6 @@
 class Ground {
     constructor(x,y,width,height) {
-      this.image = loadImage("sprites/ground.png");
+      this.image = loadImage("ground.png");
       var options = {
           isStatic: true
       }

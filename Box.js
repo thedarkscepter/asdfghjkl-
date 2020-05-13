@@ -1,7 +1,7 @@
 class Box {
   constructor(x, y, width, height) {
 
-    this.image = loadImage("sprites/wood1.png");
+    this.image = loadImage("wood1.png");
     var options = {
         'restitution':0.8,
         'friction':1.0,
